@@ -10,7 +10,7 @@
     h2 {
         @apply text-xl;
         @apply font-medium;
-        @apply mt-2;
+        @apply mt-[2rem];
         @apply mb-1;
     }
 
@@ -18,7 +18,7 @@
         @apply text-lg;
         @apply font-medium;
         @apply mt-2;
-        @apply mb-1;
+        @apply mb-0;
     }
 
     li {
@@ -29,9 +29,9 @@
 
     p {
         @apply text-base;
-        @apply mt-1;
-        @apply ml-2;
+        @apply italic;
     }
 }
+
 @tailwind components;
 @tailwind utilities;
